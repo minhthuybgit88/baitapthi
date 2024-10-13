@@ -8,14 +8,8 @@
 </head>
 <body>
     <style>
-    /*Hien thi menu dang 1 colunm*/
-        @media only screen and (max-width:768px){
-            .nav-bar{
-                flex-direction: column;
-            }
-        }
     /* Định dạng cho thiết bị có kích thước nhỏ */
-    @media only screen and (min-width: 240px) and (max-width: 480px) {
+    @media only screen and (min-width: 240px) and (max-width: 480px) and(orientation:landscape) {
     .nav-bar {
         flex-direction: column;
         grid-template-columns: repeat(1, 1fr); /* Hiển thị dạng lưới với 1 cột */
@@ -33,11 +27,7 @@
     .nav-toggle:hover {
         color: red;
     }
-    .footer{
-        font-size: 1.2rem;
-    }
 }
-
 /* Định dạng cho thiết bị di động */
 @media (min-width: 768px){
     .main-content {
@@ -70,7 +60,6 @@
     <header class="header">
         <h1>Website Header</h1>
     </header>
-
     <!-- Main Content -->
     <main class="main-content">
         <div class="card"></div>
