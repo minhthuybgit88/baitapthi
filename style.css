@@ -1,4 +1,7 @@
 /* Đặt cơ bản cho trang */
+html{
+    font-size: 14px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +26,7 @@ body {
 .nav-bar a {
     color:#333;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 2rem;
 }
 
 .nav-bar a:hover {
@@ -39,7 +42,7 @@ body {
 
 .header h1 {
     color: white;
-    font-size:64px;
+    font-size:4rem;
 }
 
 /* Định dạng cho nội dung chính */
