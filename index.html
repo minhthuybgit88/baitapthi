@@ -9,7 +9,7 @@
 <body>
     <style>
     /* Định dạng cho thiết bị có kích thước nhỏ */
-    @media only screen and (min-width: 240px) and (max-width: 480px) and (orientation:landscape) {
+    @media only screen and (min-width: 240px) and (max-width: 480px){
     .nav-bar {
         flex-direction: column;
         grid-template-columns: repeat(2, 1fr); /* Hiển thị dạng lưới với 1 cột */
@@ -29,7 +29,7 @@
     }
 }
 /* Định dạng cho thiết bị di động */
-@media (min-width: 768px) and (orientation:landscape){
+@media (min-width: 768px){
     .main-content {
     grid-template-columns: repeat(2, 1fr); /* Hiển thị dạng lưới với 2 cột */
         }
